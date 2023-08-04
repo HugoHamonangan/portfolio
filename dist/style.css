@@ -1,0 +1,97 @@
+body {
+    font-family: Urbanist, sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;     
+}
+
+@media (max-width: 530px) {
+    html{
+        overflow-x: hidden !important;
+    }
+    *{
+        user-select: none;
+        -webkit-tap-highlight-color: #00000000;
+    }
+    #image{
+        transform: scale(1.15);
+    }
+}
+
+.bg-custom-navbar {
+    background: #17314b83;
+    box-shadow: 0 8px 32px 0 rgba(95, 95, 95, 0.123);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);    
+}
+
+.custom-width{
+    width: 6rem !important;
+}
+
+#tooltip{
+    display: none;
+}
+
+#theme:hover #tooltip{
+    display: block;
+}
+
+.logo{
+    width: 10rem;
+    transition: 500ms;
+}
+
+.py-custom{
+    padding: .0rem 1.5rem;
+}
+
+#sidebar{
+    background: #000000ce;
+    box-shadow: 0 8px 32px 0 rgba(95, 95, 95, 0.123);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);  
+    transition: 300ms;     
+}
+
+.close-sidebar{
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;    
+    
+}
+
+.open-sidebar{
+    opacity: 1;
+    pointer-events: visible;
+    visibility: visible;
+}
+
+.first-position{
+    transform: translateX(-20rem);
+}
+
+.blue{
+    color: #51c1f5 !important;
+}
+
+.custom-adaptive-home-height{
+    height: 63rem;
+}
+
+@media (max-width: 1024px) {
+    .custom-adaptive-home-height{
+        height: 110rem;
+    }   
+}
+
+@media (max-width: 768px) {
+    .custom-adaptive-home-height{
+        height: 90rem;
+    }   
+}
+
+@media (max-width: 640px) {
+    .custom-adaptive-home-height{
+        height: 70rem;
+    }   
+}
