@@ -1,0 +1,190 @@
+body {
+  cursor: url("../img/Cursor.png"), auto;
+  overflow-x: hidden !important;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #333;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #252525;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+#logoIntro{
+  transform: translateY(40rem);
+  /* transition: 800ms cubic-bezier(1,-0.45,.43,1.03); */
+}
+
+#glitchLogo, #logoIntro{
+  width: 20rem;
+  object-fit: cover;
+}
+
+.plate {
+  position: relative;
+  transform: scale(0.8);
+}
+
+.burger {
+  filter: url(#gooeyness);
+}
+
+.x {
+  width: 0rem;
+  height: 0rem;
+  transform: translate(-50%, -50%);
+  transition: 700ms !important;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.line {
+  fill: none;
+  stroke: rgb(255, 255, 255);
+  stroke-width: 5px;
+  stroke-linecap: square;
+  stroke-linejoin: square;
+  transform-origin: 50%;
+  transition: stroke-dasharray 500ms 200ms, stroke-dashoffset 500ms 200ms,
+    transform 500ms 200ms;
+}
+.x .line {
+  stroke-width: 5.5px;
+}
+
+
+.active .x {
+  width: 6rem;
+  height: 6rem;
+  transition: transform 400ms 350ms;
+}
+
+.plate2 .line1 {
+  stroke-dasharray: 21 185.62753295898438;
+  transition-delay: 0;
+}
+.plate2 .line2 {
+  stroke-dasharray: 21 178.6514129638672;
+  transition-delay: 30ms;
+}
+.plate2 .line3 {
+  stroke-dasharray: 21 197.92425537109375;
+  transition-delay: 60ms;
+}
+.plate2 .line4 {
+  stroke-dasharray: 21 190.6597137451172;
+  transition-delay: 90ms;
+}
+.plate2 .line5 {
+  stroke-dasharray: 21 208.52874755859375;
+  transition-delay: 120ms;
+}
+.plate2 .line6 {
+  stroke-dasharray: 21 186.59703063964844;
+  transition-delay: 150ms;
+}
+.active.plate2 .line1 {
+  stroke-dasharray: 5 185.62753295898438;
+  stroke-dashoffset: -141px;
+}
+.active.plate2 .line2 {
+  stroke-dasharray: 5 178.6514129638672;
+  stroke-dashoffset: -137px;
+}
+.active.plate2 .line3 {
+  stroke-dasharray: 5 197.92425537109375;
+  stroke-dashoffset: -176px;
+}
+.active.plate2 .line4 {
+  stroke-dasharray: 5 190.6597137451172;
+  stroke-dashoffset: -159px;
+}
+.active.plate2 .line5 {
+  stroke-dasharray: 5 208.52874755859375;
+  stroke-dashoffset: -139px;
+}
+.active.plate2 .line6 {
+  stroke-dasharray: 5 186.59703063964844;
+  stroke-dashoffset: -176px;
+}
+.active.plate2 .x {
+  transition: transform 400ms 250ms;
+}
+
+.scroller {
+  margin: 0 auto;
+}
+
+.scroller[data-animated="true"] {
+  overflow: hidden;
+}
+
+.scroller[data-animated="true"] .tag-list {
+  flex-wrap: nowrap;
+  width: fit-content;
+  animation: scroll var(--_animation-duration, 15s) linear infinite;
+}
+
+.scroller[data-speed="fast"] {
+  --_animation-duration: 9s;
+}
+
+.scroller[data-speed="slow"] {
+  --_animation-duration: 100s;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - 0.5rem));
+  }
+}
+
+.tag-list {
+  padding-block: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding-inline: 0;
+  white-space: nowrap;
+}
+
+.sidebar-open,
+.sidebar-close {
+  transition: all 1000ms cubic-bezier(1, -0.02, 0.49, 1.32);
+}
+
+.sidebar-open {
+  clip-path: inset(0 0 0 0);
+}
+
+.sidebar-close {
+  clip-path: inset(0 0 100% 0);
+}
+
+.blurbg {
+  background: rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
+  transition: 500ms;
+}
+
+#test {
+  font-weight: 800;
+  text-transform: uppercase;  
+  background: url('./whitebox.svg') -50rem 0rem / cover no-repeat;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  transition: 1000ms;
+}
+
+
