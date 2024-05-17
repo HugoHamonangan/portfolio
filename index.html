@@ -1,295 +1,539 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Hugo Hamonangan, a web developer with expertise in HTML, CSS, JavaScript, and more. Explore projects, skills, and get in touch."
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Portfolio of Hugo Hamonangan, a web developer with expertise in HTML, CSS, JavaScript, and more. Explore projects, skills, and get in touch." />
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" sizes="96x96" href="./assets/img/96x96.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="128x128"
+      href="./assets/img/128x128.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/img/180x180.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="192x192"
+      href="./assets/img/192x192.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="325x325"
+      href="./assets/img/325x325.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="512x512"
+      href="./assets/img/512x512.png"
+    />
 
-  <!-- Apple Touch Icons -->
-  <link rel="apple-touch-icon" sizes="96x96" href="./assets/img/96x96.png" />
-  <link rel="apple-touch-icon" sizes="128x128" href="./assets/img/128x128.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/180x180.png" />
-  <link rel="apple-touch-icon" sizes="192x192" href="./assets/img/192x192.png" />
-  <link rel="apple-touch-icon" sizes="325x325" href="./assets/img/325x325.png" />
-  <link rel="apple-touch-icon" sizes="512x512" href="./assets/img/512x512.png" />
+    <!-- Open Graph Meta Tags -->
+    <meta name="apple-mobile-web-app-status-bar" content="#000000" />
+    <meta name="theme-color" content="#000000" />
+    <meta property="og:title" content="HUGO HAMONANGAN | PORTFOLIO" />
+    <meta
+      property="og:description"
+      content="Portfolio of Hugo Hamonangan, a web developer with expertise in HTML, CSS, JavaScript, and more. Explore projects, skills, and get in touch."
+    />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Masterfoodcatering" />
 
-  <!-- Open Graph Meta Tags -->
-  <meta name="apple-mobile-web-app-status-bar" content="#000000" />
-  <meta name="theme-color" content="#000000" />
-  <meta property="og:title" content="HUGO HAMONANGAN | PORTFOLIO" />
-  <meta property="og:description"
-    content="Portfolio of Hugo Hamonangan, a web developer with expertise in HTML, CSS, JavaScript, and more. Explore projects, skills, and get in touch." />
-  <meta property="og:image" content="" />
-  <meta property="og:url" content="" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Masterfoodcatering" />
+    <!-- Other Meta Tags -->
+    <meta
+      name="keywords"
+      content="Hugo Hamonangan, Portfolio, Hugo Hamonangan Portfolio, Web Developer, Designer, Hugo Hamonangan Developer, Hugo Hamonangan Designer, Hugo, Hamonangan, Hugo Portfolio, Hamonangan Portfolio, Hamonangan Hugo, Hamonangan Hugo Portfolio, Creative Professional, UI/UX Designer, Front-end Developer, Graphic Designer, Visual Artist, Software Engineer, Online Portfolio, Innovative Designer, Tech Enthusiast, Coding Portfolio, Hugo's Works, Portfolio Showcase, UI Design Portfolio, Digital Creations by Hugo, Digital Portfolio, Hugo Hamonangan Art, Digital Artist, Professional Portfolio, Technology Expert, Visual Design, Personal Portfolio, Web Development, Artistic Creations, Digital Innovation"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="3 days" />
+    <meta name="author" content="HUGO HAMONANGAN" />
 
-  <!-- Other Meta Tags -->
-  <meta name="keywords"
-    content="Hugo Hamonangan, Portfolio, Hugo Hamonangan Portfolio, Web Developer, Designer, Hugo Hamonangan Developer, Hugo Hamonangan Designer, Hugo, Hamonangan, Hugo Portfolio, Hamonangan Portfolio, Hamonangan Hugo, Hamonangan Hugo Portfolio, Creative Professional, UI/UX Designer, Front-end Developer, Graphic Designer, Visual Artist, Software Engineer, Online Portfolio, Innovative Designer, Tech Enthusiast, Coding Portfolio, Hugo's Works, Portfolio Showcase, UI Design Portfolio, Digital Creations by Hugo, Digital Portfolio, Hugo Hamonangan Art, Digital Artist, Professional Portfolio, Technology Expert, Visual Design, Personal Portfolio, Web Development, Artistic Creations, Digital Innovation" />
-  <meta name="robots" content="index, follow" />
-  <meta name="language" content="English" />
-  <meta name="revisit-after" content="3 days" />
-  <meta name="author" content="HUGO HAMONANGAN" />
+    <!-- Favicon and Stylesheets -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/img/32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/img/16x16.png"
+    />
+    <link rel="icon" href="./assets/img/325x325.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="./assets/img/512x512.png"
+    />
 
-  <!-- Favicon and Stylesheets -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/16x16.png" />
-  <link rel="icon" href="./assets/img/325x325.png" />
-  <link rel="icon" type="image/png" sizes="512x512" href="./assets/img/512x512.png" />
+    <link rel="stylesheet" href="./assets/css/output.css" />
+    <link rel="stylesheet" href="./assets/css/real.css" />
+    <script src="//unpkg.com/alpinejs" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit&family=Rowdies:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Hugo Hamonangan Portfolio</title>
+  </head>
 
-  <link rel="stylesheet" href="./assets/css/output.css" />
-  <link rel="stylesheet" href="./assets/css/real.css" />
-  <script src="//unpkg.com/alpinejs" defer></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Rowdies:wght@700&display=swap" rel="stylesheet" />
-  <title>Hugo Hamonangan Portfolio</title>
-</head>
-
-<body class="bg-[#1d1d1d]" x-data="{sidebar : false, scrolled : false, show : false}">
-  <div id="intro" class="bg-black grid place-items-center h-[100dvh] p-0 fixed z-50 top-0 left-0 w-full transform">
-    <div class="overflow-hidden">
-      <img src="./assets/img/logo.png" alt="logo" class="" id="logoIntro" />
-      <img class="hidden" id="glitchLogo" src="./assets/img/logo.gif" alt="logoGlitch" />
-    </div>
-  </div>
-
-  <button x-on:click="show = !show" class="absolute bottom-[10rem] block md:hidden left-7 p-3 text-[1.4em] z-20 blurbg"
-    x-text="!show ? 'Show': 'Hide'"></button>
-
-  <header class="fixed w-full top-0 left-0 z-30 transition-[500ms]" x-on:scroll.window="scrolled = window.scrollY > 100"
-    :class="{ 'blurbg': scrolled }">
-    <div class="container relative z-40 flex items-center justify-between mx-auto w-full md:w-[90%] py-1 lg:py-4">
-      <img src="./assets/img/logo.png" alt="logo" class="object-cover w-[10rem] ml-5 md:ml-1 -translate-y-[20rem]"
-        id="realLogo" />
-      <div class="plate plate2 block md:hidden cursor-pointer" onclick="this.classList.toggle('active')"
-        x-on:click="sidebar = !sidebar" x-ref="toggler">
-        <svg id="svg" class="burger scale-90" version="1.1" height="100" width="100" viewBox="0 0 100 100">
-          <path class="line line1"
-            d="M 50,65 H 70 C 70,65 75,65.198488 75,70.762712 C 75,73.779026 74.368822,78.389831 66.525424,78.389831 C 22.092231,78.389831 -18.644068,-30.508475 -18.644068,-30.508475" />
-          <path class="line line2"
-            d="M 50,35 H 70 C 70,35 81.355932,35.300135 81.355932,25.635593 C 81.355932,20.906215 78.841706,14.830508 72.881356,14.830508 C 35.648232,14.830508 -30.508475,84.322034 -30.508475,84.322034" />
-          <path class="line line3"
-            d="M 50,50 H 30 C 30,50 12.288136,47.749959 12.288136,60.169492 C 12.288136,67.738339 16.712974,73.305085 40.677966,73.305085 C 73.791674,73.305085 108.47458,-19.915254 108.47458,-19.915254" />
-          <path class="line line4"
-            d="M 50,50 H 70 C 70,50 81.779661,50.277128 81.779661,36.607372 C 81.779661,28.952694 77.941689,25 69.067797,25 C 39.95532,25 -16.949153,119.91525 -16.949153,119.91525" />
-          <path class="line line5"
-            d="M 50,65 H 30 C 30,65 17.79661,64.618439 17.79661,74.152543 C 17.79661,80.667556 25.093813,81.355932 38.559322,81.355932 C 89.504001,81.355932 135.59322,-21.186441 135.59322,-21.186441" />
-          <path class="line line6"
-            d="M 50,35 H 30 C 30,35 16.525424,35.528154 16.525424,24.152542 C 16.525424,17.535987 22.597755,13.559322 39.40678,13.559322 C 80.617882,13.559322 94.067797,111.01695 94.067797,111.01695" />
-        </svg>
-        <svg class="x" version="1.1" height="100" width="100" viewBox="0 0 100 100">
-          <path class="line" d="M 34,32 L 66,68" />
-          <path class="line" d="M 66,32 L 34,68" />
-        </svg>
+  <body
+    class="bg-[#1d1d1d]"
+    x-data="{sidebar : false, scrolled : false, show : false}"
+  >
+    <div
+      id="intro"
+      class="bg-black grid place-items-center h-[100dvh] p-0 fixed z-50 top-0 left-0 w-full transform"
+    >
+      <div class="overflow-hidden">
+        <img src="./assets/img/logo.png" alt="logo" class="" id="logoIntro" />
+        <img
+          class="hidden"
+          id="glitchLogo"
+          src="./assets/img/logo.gif"
+          alt="logoGlitch"
+        />
       </div>
-      <nav class="hidden md:block">
-        <ul class="text-white">
-          <a class="py-2 px-3 font-bold cursor-pointer" href="#Home">Home</a>
-          <a class="py-2 px-3 font-bold cursor-pointer" href="#Projects">Projects</a>
-          <a class="py-2 px-3 font-bold cursor-pointer" href="#Skill">Skill</a>
-          <a class="py-2 px-3 font-bold cursor-pointer" href="#Contacts">Contact</a>
+    </div>
+
+    <button
+      x-on:click="show = !show"
+      class="absolute bottom-[10rem] block md:hidden left-7 p-3 text-[1.4em] z-20 blurbg"
+      x-text="!show ? 'Show': 'Hide'"
+    ></button>
+
+    <header
+      class="fixed w-full top-0 left-0 z-30 transition-[500ms]"
+      x-on:scroll.window="scrolled = window.scrollY > 100"
+      :class="{ 'blurbg': scrolled }"
+    >
+      <div
+        class="container relative z-40 flex items-center justify-between mx-auto w-full md:w-[90%] py-1 lg:py-4"
+      >
+        <img
+          src="./assets/img/logo.png"
+          alt="logo"
+          class="object-cover w-[10rem] ml-5 md:ml-1 -translate-y-[20rem]"
+          id="realLogo"
+        />
+        <div
+          class="plate plate2 block md:hidden cursor-pointer"
+          onclick="this.classList.toggle('active')"
+          x-on:click="sidebar = !sidebar"
+          x-ref="toggler"
+        >
+          <svg
+            id="svg"
+            class="burger scale-90"
+            version="1.1"
+            height="100"
+            width="100"
+            viewBox="0 0 100 100"
+          >
+            <path
+              class="line line1"
+              d="M 50,65 H 70 C 70,65 75,65.198488 75,70.762712 C 75,73.779026 74.368822,78.389831 66.525424,78.389831 C 22.092231,78.389831 -18.644068,-30.508475 -18.644068,-30.508475"
+            />
+            <path
+              class="line line2"
+              d="M 50,35 H 70 C 70,35 81.355932,35.300135 81.355932,25.635593 C 81.355932,20.906215 78.841706,14.830508 72.881356,14.830508 C 35.648232,14.830508 -30.508475,84.322034 -30.508475,84.322034"
+            />
+            <path
+              class="line line3"
+              d="M 50,50 H 30 C 30,50 12.288136,47.749959 12.288136,60.169492 C 12.288136,67.738339 16.712974,73.305085 40.677966,73.305085 C 73.791674,73.305085 108.47458,-19.915254 108.47458,-19.915254"
+            />
+            <path
+              class="line line4"
+              d="M 50,50 H 70 C 70,50 81.779661,50.277128 81.779661,36.607372 C 81.779661,28.952694 77.941689,25 69.067797,25 C 39.95532,25 -16.949153,119.91525 -16.949153,119.91525"
+            />
+            <path
+              class="line line5"
+              d="M 50,65 H 30 C 30,65 17.79661,64.618439 17.79661,74.152543 C 17.79661,80.667556 25.093813,81.355932 38.559322,81.355932 C 89.504001,81.355932 135.59322,-21.186441 135.59322,-21.186441"
+            />
+            <path
+              class="line line6"
+              d="M 50,35 H 30 C 30,35 16.525424,35.528154 16.525424,24.152542 C 16.525424,17.535987 22.597755,13.559322 39.40678,13.559322 C 80.617882,13.559322 94.067797,111.01695 94.067797,111.01695"
+            />
+          </svg>
+          <svg
+            class="x"
+            version="1.1"
+            height="100"
+            width="100"
+            viewBox="0 0 100 100"
+          >
+            <path class="line" d="M 34,32 L 66,68" />
+            <path class="line" d="M 66,32 L 34,68" />
+          </svg>
+        </div>
+        <nav class="hidden md:block">
+          <ul class="text-white">
+            <a class="py-2 px-3 font-bold cursor-pointer" href="#Home">Home</a>
+            <a class="py-2 px-3 font-bold cursor-pointer" href="#Projects"
+              >Projects</a
+            >
+            <a class="py-2 px-3 font-bold cursor-pointer" href="#Skill"
+              >Skill</a
+            >
+            <a class="py-2 px-3 font-bold cursor-pointer" href="#Contacts"
+              >Contact</a
+            >
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <aside
+      class="bg-[#252525] w-full h-[100vh] fixed top-0 left-0 z-20 flex items-center justify-center sidebar-close transition-[300ms]"
+      x-bind:class="{'sidebar-open': sidebar, 'sidebar-close': !sidebar}"
+    >
+      <nav class="w-full">
+        <ul class="text-white flex flex-col">
+          <a
+            class="text-2xl p-4 block w-full text-center font-bold cursor-pointer"
+            x-on:click="$refs.toggler.click()"
+            href="#Home"
+            >Home</a
+          >
+          <a
+            class="text-2xl p-4 block w-full text-center font-bold cursor-pointer"
+            href="#Projects"
+            x-on:click="$refs.toggler.click()"
+            >Projects</a
+          >
+          <a
+            class="text-2xl p-4 block w-full text-center font-bold cursor-pointer"
+            href="#Skill"
+            x-on:click="$refs.toggler.click()"
+            >Skill</a
+          >
+          <a
+            class="text-2xl p-4 block w-full text-center font-bold cursor-pointer"
+            href="#Contacts"
+            x-on:click="$refs.toggler.click()"
+            >Contact</a
+          >
         </ul>
       </nav>
-    </div>
-  </header>
+    </aside>
 
-  <aside
-    class="bg-[#252525] w-full h-[100vh] fixed top-0 left-0 z-20 flex items-center justify-center sidebar-close transition-[300ms]"
-    x-bind:class="{'sidebar-open': sidebar, 'sidebar-close': !sidebar}">
-    <nav class="w-full">
-      <ul class="text-white flex flex-col">
-        <a class="text-2xl p-4 block w-full text-center font-bold cursor-pointer" x-on:click="$refs.toggler.click()"
-          href="#Home">Home</a>
-        <a class="text-2xl p-4 block w-full text-center font-bold cursor-pointer" href="#Projects"
-          x-on:click="$refs.toggler.click()">Projects</a>
-        <a class="text-2xl p-4 block w-full text-center font-bold cursor-pointer" href="#Skill"
-          x-on:click="$refs.toggler.click()">Skill</a>
-        <a class="text-2xl p-4 block w-full text-center font-bold cursor-pointer" href="#Contacts"
-          x-on:click="$refs.toggler.click()">Contact</a>
-      </ul>
-    </nav>
-  </aside>
-
-  <main id="main" class="" x-data="{ scrollY: 0, mouseX: 0, mouseY: 0 }"
-    x-on:mousemove="mouseX = $event.clientX; mouseY = $event.clientY" x-on:scroll.window="scrollY = window.scrollY">
-    <section id="Home" class="h-[100vh] flex items-center justify-center relative overflow-hidden">
-      <div class="scroller transform -translate-y-16 md:-translate-y-0" data-speed="slow">
-        <ul class="tag-list gap-[13rem] md:gap-[27rem]">
-          <li class="rowdies text-[calc(8vw+1em)] scale-[1.2]">
-            HUGO HAMONANGAN
-          </li>
-          <li class="rowdies text-[calc(8vw+1em)] scale-[1.2]">
-            HUGO HAMONANGAN
-          </li>
-          <li class="rowdies text-[calc(8vw+1em)] scale-[1.2]">
-            HUGO HAMONANGAN
-          </li>
-          <li class="rowdies text-[calc(8vw+1em)] scale-[1.2]">
-            HUGO HAMONANGAN
-          </li>
-          <li class="rowdies text-[calc(8vw+1em)] scale-[1.2]">
-            HUGO HAMONANGAN
-          </li>
-          <li class="rowdies text-[calc(8vw+1em)] scale-[1.2]">
-            HUGO HAMONANGAN
-          </li>
-        </ul>
-      </div>
-      <img src="./assets/img/background.png" alt="bg"
-        class="object-cover h-auto w-full md:h-max max-w-[35rem] xxl:max-w-[60rem] absolute top-[80%] md:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-        :style="'transform: translate(-50%, -50%) translate(' + mouseX/30 + 'px, ' + scrollY/5 + 'px);'" />
-      <p class="absolute blurbg p-5 sm:block hidden bottom-0 right-0 md:bottom-[2rem] md:right-[2rem] xxl:right-[14rem] xxl:bottom-[7rem] w-full max-w-[31rem]"
-        x-bind:class="{'block': show , 'hidden' : !show}">
-        My name is Hugo Hamonangan. I have a deep interest in creating
-        websites and always be enthusiastic about deepening my knowledge in
-        the field of web development. I started with front-end, but these
-        days, I'm also dabbling in the backend side of things..
-      </p>
-    </section>
-    <section id="Projects" class="flex flex-col pt-[6rem] pb-[5rem] bg-[#161616] relative z-10">
-      <h1 class="text-[2em] rowdies font-bold text-center pb-[3rem]">
-        PROJECTS
-      </h1>
-      <div class="container w-full md:w-[90%] mx-auto">
-        <div id="box"
-          class="overflow-hidden p-5 opacity-0 flex items-center border-b-2 border-b-[#333333] justify-center gap-7">
-          <div class="p-5 flex gap-5 flex-col lg:flex-row items-center justify-center transform">
-            <h1 class="rowdies text-[4em] mb-[1.5rem] lg:mb-0 lg:text-[3em] lg:mr-[6rem] opacity-20">
-              1
-            </h1>
-            <img src="./assets/img/image-2.png" alt="project1" class="w-full object-cover bg-center lg:max-w-[25rem]" />
-            <div class="flex flex-col gap-5 lg:ml-[3rem]">
-              <p class="text-[#989898]">
-                The project was during semester 2, at that time we were in
-                groups to create a logistics catalog website, and I worked on
-                the front end of the website, and also helped create the
-                backend for the login, signup and input sections.
-              </p>
-              <a href="https://calogik.nuscip.xyz/public/home" target="_blank"
-                class="group text-left w-full lg:w-fit shadow-md flex items-center">Visit Project
-                <span class="ml-3 text-[1.4em] group-hover:ml-5 transition-[300ms]">&rarr;</span></a>
-            </div>
-          </div>
+    <main
+      id="main"
+      class=""
+      x-data="{ scrollY: 0, mouseX: 0, mouseY: 0 }"
+      x-on:mousemove="mouseX = $event.clientX; mouseY = $event.clientY"
+      x-on:scroll.window="scrollY = window.scrollY"
+    >
+      <section
+        id="Home"
+        class="h-[100vh] flex items-center justify-center relative overflow-hidden"
+      >
+        <div
+          class="scroller transform -translate-y-16 md:-translate-y-0"
+          data-speed="slow"
+        >
+          <ul class="tag-list gap-[13rem] md:gap-[27rem]">
+            <li class="rowdies text-[calc(8vw+1em)] scale-[1.2]">
+              HUGO HAMONANGAN
+            </li>
+            <li class="rowdies text-[calc(8vw+1em)] scale-[1.2]">
+              HUGO HAMONANGAN
+            </li>
+            <li class="rowdies text-[calc(8vw+1em)] scale-[1.2]">
+              HUGO HAMONANGAN
+            </li>
+            <li class="rowdies text-[calc(8vw+1em)] scale-[1.2]">
+              HUGO HAMONANGAN
+            </li>
+            <li class="rowdies text-[calc(8vw+1em)] scale-[1.2]">
+              HUGO HAMONANGAN
+            </li>
+            <li class="rowdies text-[calc(8vw+1em)] scale-[1.2]">
+              HUGO HAMONANGAN
+            </li>
+          </ul>
         </div>
-        <div id="box2"
-          class="overflow-hidden p-5 opacity-0 flex items-center border-b-2 border-b-[#333333] justify-center xxl:justify-start gap-7">
-          <div class="p-5 flex gap-5 flex-col lg:flex-row items-center justify-center transform">
-            <h1 class="rowdies text-[4em] mb-[1.5rem] lg:mb-0 lg:text-[3em] lg:mr-[6rem] opacity-20">
-              2
-            </h1>
-            <img src="./assets/img/image-3.png" alt="project3" class="w-full object-cover bg-center lg:max-w-[25rem]" />
-            <div class="flex flex-col gap-5 lg:ml-[3rem]">
-              <p class="text-[#989898]">
-                The first portfolio website while still learning HTML, CSS and
-                Javascript will be in 2022
-              </p>
-              <a href="http://hugoportfolioweb.epizy.com" target="_blank"
-                class="group text-left w-full lg:w-fit shadow-md flex items-center">Visit Project
-                <span class="ml-3 text-[1.4em] group-hover:ml-5 transition-[300ms]">&rarr;</span></a>
-            </div>
-          </div>
-        </div>
-        <div id="box3"
-          class="overflow-hidden p-5 opacity-0 flex items-center border-b-2 border-b-[#333333] justify-center xxl:justify-start gap-7">
-          <div class="p-5 flex gap-5 flex-col lg:flex-row items-center justify-center transform">
-            <h1 class="rowdies text-[4em] mb-[1.5rem] lg:mb-0 lg:text-[3em] lg:mr-[6rem] opacity-20">
-              3
-            </h1>
-            <img src="./assets/img/image-4.png" alt="project4" class="w-full object-cover bg-center lg:max-w-[25rem]" />
-            <div class="flex flex-col gap-5 lg:ml-[3rem]">
-              <p class="text-[#989898]">
-                The project created for my class, made to see schedules,
-                courses and assignments need to be done at that time.
-              </p>
-              <a href="https://hugohamonangan.github.io/ifcpagi2022/" target="_blank"
-                class="group text-left w-full lg:w-fit shadow-md flex items-center">Visit Project
-                <span class="ml-3 text-[1.4em] group-hover:ml-5 transition-[300ms]">&rarr;</span></a>
-            </div>
-          </div>
-        </div>
-        <div id="box4" class="overflow-hidden p-5 opacity-0 flex items-center justify-center gap-7">
-          <div class="p-5 flex gap-5 flex-col lg:flex-row items-center justify-center transform">
-            <h1 class="rowdies text-[4em] mb-[1.5rem] lg:mb-0 lg:text-[3em] lg:mr-[6rem] opacity-20">
-              4
-            </h1>
-            <img src="./assets/img/image-5.png" alt="project5" class="w-full object-cover bg-center lg:max-w-[25rem]" />
-            <div class="flex flex-col gap-5 lg:ml-[3rem]">
-              <p class="text-[#989898]">
-                In the first semester of the project, we created a website
-                from Python with the theme of an all in one application, this
-                website was created using Streamlit and Python version 3.7.
-              </p>
-              <a href="https://tubesdasproif1cpagi.streamlit.app/" target="_blank"
-                class="group text-left w-full lg:w-fit shadow-md flex items-center">Visit Project
-                <span class="ml-3 text-[1.4em] group-hover:ml-5 transition-[300ms]">&rarr;</span></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="Skill" class="flex flex-col gap-40 pt-[7rem]">
-      <div
-        class="container px-7 md:px-0 lg:w-[90%] flex flex-col lg:flex-row gap-10 lg:jusitfy-center items-center mx-auto">
-        <h1 id="test" class="text-[1.7em] md:text-[2.7em] font-bold w-full lg:w-[85rem]">
-          WHAT HAVE I LEARNT ?
-        </h1>
-        <p class="text-[#989898] leading-8">
-          I have been studying Frontend HTML, CSS, JS since 2021 and started
-          exploring frameworks and libraries in 2022. And in 2023, i start to
-          learn backend with NATIVE PHP and bunch of PHP frameworks. so you
-          could say I am quite experienced in this field, almost 3 years.
+        <img
+          src="./assets/img/background.png"
+          alt="bg"
+          class="object-cover h-auto w-full md:h-max max-w-[35rem] xxl:max-w-[60rem] absolute top-[80%] md:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+          :style="'transform: translate(-50%, -50%) translate(' + mouseX/30 + 'px, ' + scrollY/5 + 'px);'"
+        />
+        <p
+          class="absolute blurbg p-5 sm:block hidden bottom-0 right-0 md:bottom-[2rem] md:right-[2rem] xxl:right-[14rem] xxl:bottom-[7rem] w-full max-w-[31rem]"
+          x-bind:class="{'block': show , 'hidden' : !show}"
+        >
+          My name is Hugo Hamonangan. I have a deep interest in creating
+          websites and always be enthusiastic about deepening my knowledge in
+          the field of web development. I started with front-end, but these
+          days, I'm also dabbling in the backend side of things..
         </p>
+      </section>
+      <section
+        id="Projects"
+        class="flex flex-col pt-[6rem] pb-[5rem] bg-[#161616] relative z-10"
+      >
+        <h1 class="text-[2em] rowdies font-bold text-center pb-[3rem]">
+          PROJECTS
+        </h1>
+        <div class="container w-full md:w-[90%] mx-auto">
+          <div
+            id="box"
+            class="overflow-hidden p-5 opacity-0 flex items-center border-b-2 border-b-[#333333] justify-center gap-7"
+          >
+            <div
+              class="p-5 flex gap-5 flex-col lg:flex-row items-center justify-center transform"
+            >
+              <h1
+                class="rowdies text-[4em] mb-[1.5rem] lg:mb-0 lg:text-[3em] lg:mr-[6rem] opacity-20"
+              >
+                1
+              </h1>
+              <img
+                src="./assets/img/image-2.png"
+                alt="project1"
+                class="w-full object-cover bg-center lg:max-w-[25rem]"
+              />
+              <div class="flex flex-col gap-5 lg:ml-[3rem]">
+                <h1 class="text-white" style="font-size: 1.3em">
+                  Catalogue Website
+                </h1>
+                <p class="text-[#989898]">
+                  The project was during semester 2, at that time we were in
+                  groups to create a logistics catalog website, and I worked on
+                  the front end of the website, and also helped create the
+                  backend for the login, signup and input sections.
+                </p>
+                <a
+                  href="https://masterfoodcatering.com/"
+                  target="_blank"
+                  class="group text-left w-full lg:w-fit flex items-center"
+                  >Visit Project
+                  <span
+                    class="ml-3 text-[1.4em] group-hover:ml-5 transition-[300ms]"
+                    >&rarr;</span
+                  ></a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            id="box2"
+            class="overflow-hidden p-5 opacity-0 flex items-center border-b-2 border-b-[#333333] justify-center xxl:justify-start gap-7"
+          >
+            <div
+              class="p-5 flex gap-5 flex-col lg:flex-row items-center justify-center transform"
+            >
+              <h1
+                class="rowdies text-[4em] mb-[1.5rem] lg:mb-0 lg:text-[3em] lg:mr-[6rem] opacity-20"
+              >
+                2
+              </h1>
+              <img
+                src="./assets/img/image-6.png"
+                alt="project5"
+                class="w-full object-cover bg-center lg:max-w-[25rem]"
+              />
+              <div class="flex flex-col gap-5 lg:ml-[3rem]">
+                <h1 class="text-white" style="font-size: 1.3em">
+                  Money Record Track Website / Webapp
+                </h1>
+                <p class="text-[#989898]">
+                  In semester 3, i and the team was making the landing page and
+                  the web application for money record track for UMKM, named PT.
+                  Ade Mestakung Abadi. I responsible for the frontend mostly and
+                  also making the mobile app with flutter.
+                </p>
+                <a
+                  href="https://tubesdasproif1cpagi.streamlit.app/"
+                  target="_blank"
+                  class="group text-left w-full lg:w-fit flex items-center"
+                  >Visit Project
+                  <span
+                    class="ml-3 text-[1.4em] group-hover:ml-5 transition-[300ms]"
+                    >&rarr;</span
+                  ></a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            id="box3"
+            class="overflow-hidden p-5 opacity-0 flex items-center border-b-2 border-b-[#333333] justify-center xxl:justify-start gap-7"
+          >
+            <div
+              class="p-5 flex gap-5 flex-col lg:flex-row items-center justify-center transform"
+            >
+              <h1
+                class="rowdies text-[4em] mb-[1.5rem] lg:mb-0 lg:text-[3em] lg:mr-[6rem] opacity-20"
+              >
+                3
+              </h1>
+              <img
+                src="./assets/img/image-4.png"
+                alt="project4"
+                class="w-full object-cover bg-center lg:max-w-[25rem]"
+              />
+              <div class="flex flex-col gap-5 lg:ml-[3rem]">
+                <h1 class="text-white" style="font-size: 1.3em">
+                  Information Website
+                </h1>
+                <p class="text-[#989898]">
+                  The project created for my class, made to see schedules,
+                  courses and assignments need to be done at that time.
+                </p>
+                <a
+                  href="https://hugohamonangan.github.io/ifcpagi2022/"
+                  target="_blank"
+                  class="group text-left w-full lg:w-fit flex items-center"
+                  >Visit Project
+                  <span
+                    class="ml-3 text-[1.4em] group-hover:ml-5 transition-[300ms]"
+                    >&rarr;</span
+                  ></a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            id="box4"
+            class="overflow-hidden p-5 opacity-0 flex items-center justify-center gap-7"
+          >
+            <div
+              class="p-5 flex gap-5 flex-col lg:flex-row items-center justify-center transform"
+            >
+              <h1
+                class="rowdies text-[4em] mb-[1.5rem] lg:mb-0 lg:text-[3em] lg:mr-[6rem] opacity-20"
+              >
+                4
+              </h1>
+              <img
+                src="./assets/img/image-5.png"
+                alt="project5"
+                class="w-full object-cover bg-center lg:max-w-[25rem]"
+              />
+              <div class="flex flex-col gap-5 lg:ml-[3rem]">
+                <h1 class="text-white" style="font-size: 1.3em">
+                  All in one math App
+                </h1>
+                <p class="text-[#989898]">
+                  In the first semester of the project, we created a website
+                  from Python with the theme of an all in one application, this
+                  website was created using Streamlit and Python version 3.7.
+                </p>
+                <a
+                  href="https://tubesdasproif1cpagi.streamlit.app/"
+                  target="_blank"
+                  class="group text-left w-full lg:w-fit flex items-center"
+                  >Visit Project
+                  <span
+                    class="ml-3 text-[1.4em] group-hover:ml-5 transition-[300ms]"
+                    >&rarr;</span
+                  ></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="Skill" class="flex flex-col gap-40 pt-[7rem]">
+        <div
+          class="container px-7 md:px-0 lg:w-[90%] flex flex-col lg:flex-row gap-10 lg:jusitfy-center items-center mx-auto"
+        >
+          <h1
+            id="test"
+            class="text-[1.7em] md:text-[2.7em] font-bold w-full lg:w-[85rem]"
+          >
+            WHAT HAVE I LEARNT ?
+          </h1>
+          <p class="text-[#989898] leading-8">
+            I have been studying Frontend HTML, CSS, JS since 2021 and started
+            exploring frameworks and libraries in 2022. And in 2023, i start to
+            learn backend with NATIVE PHP and bunch of PHP frameworks. so you
+            could say I am quite experienced in this field, almost 3 years.
+          </p>
+        </div>
+
+        <div
+          class="scroller transform scale-[1] w-full max-w-[1400px] overflow-hidden xxl:scale-[1.5]"
+          data-speed=""
+        >
+          <ul class="tag-list gap-9">
+            <li class="text-[1.7em]">HTML</li>
+            <li class="text-[1.7em]">CSS</li>
+            <li class="text-[1.7em]">JAVASCRIPT</li>
+            <li class="text-[1.7em]">TAILWINDCSS</li>
+            <li class="text-[1.7em]">BOOTSTRAP</li>
+            <li class="text-[1.7em]">MATERIALIZECSS</li>
+            <li class="text-[1.7em]">ALPINEJS</li>
+            <li class="text-[1.7em]">CODEIGNITER4</li>
+            <li class="text-[1.7em]">LARAVEL8.x</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer
+      id="Contacts"
+      class="container mx-auto w-[90%] sm:w-full flex flex-col justify-center items-center pt-[11rem]"
+    >
+      <h1 class="text-3xl">Stay in touch</h1>
+      <p class="text-gray-300 text-sm mt-5 mb-8">
+        you can click each button below
+      </p>
+      <div
+        class="border-t-2 border-[#585858] p-2 py-7 flex justify-center items-center gap-5 flex-wrap"
+      >
+        <a
+          class="border transition-all hover:bg-white hover:text-black p-3 w-full md:w-fit text-center"
+          target="_blank"
+          href="mailto:hugohamonangan@gmail.com"
+          >hugohamonangan@gmail.com</a
+        >
+        <a
+          class="border transition-all hover:bg-white hover:text-black p-3 w-full md:w-fit text-center"
+          target="_blank"
+          href="https://www.instagram.com/hugo_hamonangan/"
+          >Instagram : @hugo_hamonangan</a
+        >
+        <a
+          class="border transition-all hover:bg-white hover:text-black p-3 w-full md:w-fit text-center"
+          target="_blank"
+          href="https://www.facebook.com/hugo.hamonangan.11/"
+          >Facebook : hugo.hamonangan.11</a
+        >
+        <a
+          class="border transition-all hover:bg-white hover:text-black p-3 w-full md:w-fit text-center"
+          target="_blank"
+          href="https://www.youtube.com/@hugohamonangan9639"
+          >Youtube : hugo hamonangan</a
+        >
       </div>
+    </footer>
 
-      <div class="scroller transform scale-[1] w-full max-w-[1400px] overflow-hidden xxl:scale-[1.5]" data-speed="">
-        <ul class="tag-list gap-9">
-          <li class="text-[1.7em]">HTML</li>
-          <li class="text-[1.7em]">CSS</li>
-          <li class="text-[1.7em]">JAVASCRIPT</li>
-          <li class="text-[1.7em]">TAILWINDCSS</li>
-          <li class="text-[1.7em]">BOOTSTRAP</li>
-          <li class="text-[1.7em]">MATERIALIZECSS</li>
-          <li class="text-[1.7em]">ALPINEJS</li>
-          <li class="text-[1.7em]">CODEIGNITER4</li>
-          <li class="text-[1.7em]">LARAVEL8.x</li>
-        </ul>
-      </div>
-    </section>
-  </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
 
-  <footer id="Contacts"
-    class="container mx-auto w-[90%] sm:w-full flex flex-col justify-center items-center pt-[11rem]">
-    <h1 class="text-3xl">Stay in touch</h1>
-    <p class="text-gray-300 text-sm mt-5 mb-8">
-      you can click each button below
-    </p>
-    <div class="border-t-2 border-[#585858] p-2 py-7 flex justify-center items-center gap-5 flex-wrap">
-      <a class="border transition-all hover:bg-white hover:text-black p-3 w-full md:w-fit text-center"
-        target="_blank" href="mailto:hugohamonangan@gmail.com">hugohamonangan@gmail.com</a>
-      <a class="border transition-all hover:bg-white hover:text-black p-3 w-full md:w-fit text-center"
-        target="_blank" href="https://www.instagram.com/hugo_hamonangan/">Instagram : @hugo_hamonangan</a>
-      <a class="border transition-all hover:bg-white hover:text-black p-3 w-full md:w-fit text-center"
-        target="_blank" href="https://www.facebook.com/hugo.hamonangan.11/">Facebook
-        : hugo.hamonangan.11</a>
-      <a class="border transition-all hover:bg-white hover:text-black p-3 w-full md:w-fit text-center"
-        target="_blank" href="https://www.youtube.com/@hugohamonangan9639">Youtube
-        : hugo hamonangan</a>
-    </div>
-  </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollToPlugin.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollToPlugin.min.js"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
-
-  <script src="./assets/js/real.js"></script>
-</body>
-
+    <script src="./assets/js/real.js"></script>
+  </body>
 </html>
